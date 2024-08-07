@@ -1,21 +1,23 @@
-# Security Policy
-
-## Supported Versions
-
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+## 🍀Supported Versions
 
 | Version | Supported          |
 | ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+| 1.1.1v  | :white_check_mark: |
+| 1.1v    | :white_check_mark: |
+| 1.0v    | :x:                |
 
-## Reporting a Vulnerability
+## ❓Support
 
-Use this section to tell people how to report a vulnerability.
+What to do? Where to write? Help?
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+Faced with a problem, then you are here - errorrr_edm
+
+My working day when I can answer you:
+05:00 -- Start of the workday.
+05:00-10:00 -- available.
+10:00-12:00 -- lunch
+12:00-15:00 -- available.
+15:00-16:00 -- dinner
+16:00-19:00 -- available
+19:00 --- End of the Workday
+ALL TIMES MOSCOW TIME
