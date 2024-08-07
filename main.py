@@ -3,9 +3,6 @@ from telethon.errors import SessionPasswordNeededError, PasswordHashInvalidError
 from telethon.tl.functions.messages import SendMessageRequest
 from telethon.tl.functions.channels import JoinChannelRequest
 
-api_id = 'api ai here'
-api_hash = 'api hash here'
-
 def print_banner():
     banner = """
     ===================================
@@ -15,7 +12,7 @@ def print_banner():
     """
     print(banner)
 
-def get_client():
+def get_client(api_id, api_hash):
     phone = input("Введите номер телефона (с кодом страны): ")
     client = TelegramClient(phone, api_id, api_hash)
     client.connect()
@@ -62,10 +59,13 @@ def send_message(client, channels, message):
 
 def main():
     print_banner()
+    api_id = input("Введите API ID: ")
+    api_hash = input("Введите API HASH: ")
+
     while True:
         client = None
         while not client:
-            client = get_client()
+            client = get_client(api_id, api_hash)
 
         channels = None
         while not channels:
